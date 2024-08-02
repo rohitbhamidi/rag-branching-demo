@@ -48,6 +48,24 @@ body {
     position: relative; /* Ensure the container is positioned correctly */
 }
 
+/* Database display container */
+.db-display {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #333333; /* Black background */
+    color: #ffffff; /* White text */
+    border-radius: 8px; /* Rounded corners */
+    text-align: center; /* Center the text */
+}
+
+/* Button container */
+.button-container {
+    display: flex;
+    gap: 10px; /* Space between buttons */
+    margin-bottom: 20px;
+}
+
 /* User input area */
 .input {
     width: 100%;
@@ -62,7 +80,6 @@ body {
 /* Interactive Submit Button */
 .button {
     padding: 10px;
-    background-color: #d9534f; /* Bootstrap danger color */
     color: #ffffff; /* White font color */
     border: none;
     border-radius: 8px; /* Rounded corners */
@@ -70,10 +87,25 @@ body {
     transition: background-color 0.3s;
     font-size: 16px;
     font-weight: 700;
+    width: 50%; /* Set button width to 50% */
 }
 
-.button:hover {
+/* Submit Button Specific Styles */
+.submit-button {
+    background-color: #d9534f; /* Bootstrap danger color */
+}
+
+.submit-button:hover {
     background-color: #c9302c; /* Darker red on hover */
+}
+
+/* Blue button */
+.blue-button {
+    background-color: #007bff; /* Bootstrap primary color */
+}
+
+.blue-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
 }
 
 /* Response area */

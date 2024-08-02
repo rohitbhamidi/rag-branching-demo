@@ -37,7 +37,7 @@ server = Flask(__name__)
 app = dash.Dash(__name__, server=server, routes_pathname_prefix='/', external_stylesheets=external_stylesheets)
 
 app.layout = html.Div(className='app', children=[
-    html.H1("RAG and Branching", className='title'),
+    html.H1("RAG + Branching with SingleStore", className='title'),
     html.Div(className='right-container', children=[
         dcc.Input(id='user-input', type='text', placeholder='Enter your question here...', className='input'),
         html.Button('Submit', id='submit-val', n_clicks=0, className='button'),

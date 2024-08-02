@@ -1,0 +1,6 @@
+Flask
+dash
+pandas
+SQLAlchemy
+openai
+PyMySQL
